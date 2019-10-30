@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900|Nanum+Pen+Script&display=swap');
+body {
+  background-color: #39375b;
+  color: #f5b0cb;
+}
+
+h1 {
+  font-family: 'Nanum Pen Script', cursive;
+  text-align: center;
+  color: #ffd369;
+  font-size: 80px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  letter-spacing: 10px;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #f5b0cb;
+}
+
+img {
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #ffd369;
+}
+
+.gif_lapis {
+  margin-top: 50px;
+}
+
+.profile {
+  height: 200px;
+  border-radius: 50%;
+}
+
+.background {
+  background-color: #2b0761;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23381274' fill-opacity='0.72'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.list-inline {
+  font-size: 40px;
+  list-style: none;
+  padding: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+#container {
+  text-align: center;
+  width: 650px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#insta {
+  color: #f2d6eb;
+  transition: .3s;
+}
+
+#insta:hover {
+  color: red;
+}
+
+#gh {
+  color: #db75c5;
+  transition: .3s;
+}
+
+#gh:hover {
+  color: red;
+}
+
+#linkedin {
+  color: #ffd369;
+  transition: .3s;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
